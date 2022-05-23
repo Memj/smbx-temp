@@ -1,0 +1,121 @@
+  #lp-pom-image-823 .lp-pom-image-container img {
+    cursor: pointer;
+}
+  #lp-pom-image-824 .lp-pom-image-container img {
+    cursor: pointer;
+}
+
+div.lp-pom-root .lp-pom-text a, .cke-text a {
+    text-decoration: none !important;
+}
+.lp-pom-button:hover {
+transition: all 0.3s !important;
+}
+
+#lp-pom-box-149 {
+        box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.1) !important;
+}
+
+
+/* Input Box Typography */
+#lp-pom-form-57 .lp-pom-form-field .single {
+  color: #757575 !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  font-family: 'Poppins',Fallback,sans-serif!important;
+}
+
+
+  
+/* Only Desktop
+@media only screen and (min-width: 768px) {
+
+#lp-pom-form-57 .lp-pom-form-field .single {
+    padding-left: 20px !important;
+}
+#lp-pom-button-32 .label, #lp-pom-button-72 .label {
+    padding-left: 22px !important;
+}
+  .lp-pom-form-field .ub-input-item.single.form_elem_first_name {
+    width: 210px;
+}
+  .lp-pom-form-field .ub-input-item.single.form_elem_last_name {
+    top: -75px;
+    left: 220px;
+    width: 210px;
+}
+
+  .lp-pom-form-field .ub-input-item.single.form_elem_work_phone {
+    top: -75px;
+
+}
+ 
+  .lp-pom-form-field .ub-input-item.single.form_elem_choose_city {
+    top: -75px;
+}
+  .lp-pom-form-field .ub-input-item.single.form_elem_work_email {
+    top: -75px;
+}
+  #lp-pom-form-57 .lp-pom-form-field .single {
+    height: 60px;
+}
+  div.lp-pom-root .lp-pom-button span {
+    left: -45px;
+}
+  #lp-pom-box-409 {
+    border-radius: 45px 0px 45px 0px;
+}
+  #lp-pom-image-812 .lp-pom-image-container img {
+    cursor: pointer;
+}
+  #lp-pom-image-811 .lp-pom-image-container img {
+    cursor: pointer;
+}
+} 
+  
+  */
+
+
+/* Only Mobile */
+@media only screen and (max-width: 600px){
+div.lp-pom-root .lp-pom-button span {
+    left: -25px;
+}
+  #lp-pom-box-409 {
+    border-radius: 20px 0px 20px 0px;
+}
+}
+
+
+
+/* Placehoder Font */
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins',Fallback,sans-serif!important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins',Fallback,sans-serif!important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins',Fallback,sans-serif!important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Poppins',Fallback,sans-serif!important;
+}
+
+/* Hide location data */
+ #lp-pom-text-877,#lp-pom-text-878,#lp-pom-text-879,#lp-pom-text-880,#lp-pom-text-883,#lp-pom-text-884,#lp-pom-text-885,#lp-pom-text-886,#lp-pom-text-887,#lp-pom-text-888,#lp-pom-text-889,#lp-pom-text-890,#lp-pom-text-891,#lp-pom-text-894,#lp-pom-text-895,#lp-pom-text-896,#lp-pom-text-898{
+    display:none;
+  }
